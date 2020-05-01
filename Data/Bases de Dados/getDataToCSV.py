@@ -42,7 +42,10 @@ class DataToCSV():
                 cleanElement =  element.replace('"', '')
                 line = cleanElement.split(',')
                 
-                reader.writerow([line[0], line[1]])
+                data = time.strftime('%d/%m/%Y', time.localtime(int(str(line[0])[:-3])))
+                reservas = line[1]
+
+                reader.writerow([data, reservas])
 
         fileJSON.close()
         fileCSV.close()
