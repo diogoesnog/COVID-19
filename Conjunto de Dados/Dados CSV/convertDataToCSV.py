@@ -32,8 +32,8 @@ class DataToCSV():
             fileCSV = open("dadosApoioTurismoRegiaoPT.csv", "w")
 
         elif(name == "turismoTipologiaPT"):
-            fileJSON = open("dadosApoioTurismoTopologiaPT.json", "r")
-            fileCSV = open("dadosApoioTurismoTopologiaPT.csv", "w")
+            fileJSON = open("dadosApoioTurismoTipologiaPT.json", "r")
+            fileCSV = open("dadosApoioTurismoTipologiaPT.csv", "w")
 
         else:
             print("Name Errado\n")
@@ -85,4 +85,4 @@ myDataToCSV.JSONtoCSV("turismoRegiaoPT")
 os.remove("dadosApoioTurismoRegiaoPT.json")
 
 myDataToCSV.JSONtoCSV("turismoTipologiaPT")
-os.remove("dadosApoioTurismoTopologiaPT.json")
+os.remove("dadosApoioTurismoTipologiaPT.json")
