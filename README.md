@@ -47,18 +47,18 @@ Para este projeto prático, usaram-se vários *datasets* em modo CSV que vão de
 ## Esquema Estudo dos Dados
 
 - **Dados Mundiais**
-  1. Panorama Geral da Pandemia
-  2. Lista de Casos de COVID-19
-  3. Evolução da Pandemia
+  - Panorama Geral da Pandemia;
+  - Lista de Casos de COVID-19;
+  - Evolução da Pandemia.
 
 - **Dados Nacionais**
-  1. Panorama Geral da Pandemia
-  2. Lista de Casos de COVID-19
-  3. Evolução da Pandemia
+  - Panorama Geral da Pandemia;
+  - Lista de Casos de COVID-19;
+  - Evolução da Pandemia.
 
 - **Dados Turismo**
-  1. Estudo do Impacto do COVID-19 nas Reservas de Voos¶
-  2. Estudo das Candidaturas à Linha de Apoio à Tesouraria de Microempresas ligadas ao Turismo
+  - Estudo do Impacto do COVID-19 nas Reservas de Voos;
+  - Estudo das Candidaturas à Linha de Apoio à Tesouraria de Microempresas ligadas ao Turismo.
 
 ---
 
