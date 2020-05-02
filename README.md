@@ -75,7 +75,7 @@ Para obter estes dados extra em modo CSV foi necessário criar um *script* Pytho
 
 **Como funciona o *script* Python?**
 
-- Executa um ficheiro [dataCommands.sh](https://github.com/diogoesnog/COVID-19/blob/master/Conjunto%20de%20Dados/Dados%20CSV/dataCommands.sh) que contém todos os comandos em modo `curl` para os dados necessários;
-  - Ao executar estes comandos obtém desde logo os dados em modo JSON, não processados.
-- Através de Expressões Regulares, absorve apenas a informação necessária, ao mesmo tempo que a escreve a mesma num ficheiro CSV.
+- Executa um ficheiro [dataCommands.sh](https://github.com/diogoesnog/COVID-19/blob/master/Conjunto%20de%20Dados/Dados%20CSV/dataCommands.sh) que contém todos os comandos em modo `curl` para extrair os dados necessários;
+- Ao executar estes comandos obtém desde logo os dados em modo JSON, não processados;
+- Através de Expressões Regulares, absorve apenas a informação necessária, ao mesmo tempo que a escreve a mesma num ficheiro CSV;
 - Com todos os ficheiros CSV criados, os ficheiros JSON são eliminados de forma automática.
