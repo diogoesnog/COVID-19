@@ -17,13 +17,14 @@ O trabalho prático da Unidade Curricular de Tecnologias e Aplicaçãos, consist
 <p algin = "center">
     <img src = "Conjunto de Dados/MapaMundialPaisesAfetados.gif"/>
 </p>
+
 <br/>
 
 **Qual o objetivo deste projeto?**
 
 Este projeto surge como uma visão pessoal acerca da evolução da disseminação e dos efeitos do vírus, não só na saúde dos cidadãos mas também na economia geral do país.
 
-
+--- 
 
 ## Origem dos Dados
 
@@ -41,6 +42,8 @@ Para este projeto prático, usaram-se vários *datasets* em modo CSV que vão de
 | Nacional | [Dados relativos à pandemia COVID-19 em Portugal](https://github.com/dssg-pt/covid19pt-data) | Este *dataset* acrescenta parâmetros necessários para o projeto em causa, facilitindo a sua projeção. |
 | Nacional | [travelBI by Turismo de Portugal](https://travelbi.turismodeportugal.pt/) | Fonte *online* com dados essenciais relativos às receitas do turismo. |
 
+---
+
 ## Esquema Estudo dos Dados
 
 - **Dados Mundiais**
@@ -56,6 +59,8 @@ Para este projeto prático, usaram-se vários *datasets* em modo CSV que vão de
 - **Dados Turismo**
   1. Estudo do Impacto do COVID-19 nas Reservas de Voos¶
   2. Estudo das Candidaturas à Linha de Apoio à Tesouraria de Microempresas ligadas ao Turismo
+
+---
 
 ## Acerca dos Dados
 
