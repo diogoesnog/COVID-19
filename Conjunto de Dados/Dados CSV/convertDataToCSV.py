@@ -58,10 +58,10 @@ class DataToCSV():
                 line = cleanElement.split(',')
                 
                 if(name == "reservasUE" or name == "reservasPT"):
-                     coluna1 = time.strftime('%d/%m/%Y', time.localtime(int(str(line[0])[:-3])))
+                     coluna1 = time.strftime('%d-%m-%Y', time.localtime(int(str(line[0])[:-3])))
                 
                 else:
-                    coluna1 = line[0]
+                    coluna1 = line[0].capitalize()
 
                 coluna2 = line[1]
 
