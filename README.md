@@ -14,10 +14,10 @@ O trabalho prático da Unidade Curricular de Tecnologias e Aplicaçãos, consist
 
 > COVID-19 é o nome, atribuído pela Organização Mundial da Saúde, à doença provocada pelo novo coronavírus SARS-COV-2, que pode causar infeção respiratória grave como a pneumonia. Este vírus foi identificado pela primeira vez em humanos, no final de 2019, na cidade chinesa de Wuhan, província de Hubei, tendo sido confirmados casos em outros países.
 
-<p algin = "center">
+<p align = "center">
    <img src = "Conjunto de Dados/MapaMundialPaisesAfetados.gif" alt = "Evolução Casos"/>
 </p>
-<p style="text-align: center;">Evolução dos Casos a nível Mundial (GIF obtido através do QGIS com TimeManager)</p>
+<p align = "center"><b>Figura 1.</b> Evolução dos Casos a nível Mundial<br/><b>(GIF obtido através do QGIS com TimeManager)</b></p>
 
 
 
