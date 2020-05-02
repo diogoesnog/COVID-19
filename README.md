@@ -66,13 +66,13 @@ Para este projeto prático, usaram-se vários *datasets* em modo CSV que vão de
 
 Apesar dos dados recolhidos pelos repositórios anexados anteriormente, existiu ainda (tal como consta na tabela) um empurrão extra, que permitiu relacionar toda a informação digerida para o COVID-19 e estabelecer uma conclusão acerca do impacto desta pandemia a nível turístico.
 
-Para obter estes dados extra em modo CSV foi necessário criar um *script* Python que conseguisse ir buscar a informação atualizada e cria-se os respetivos dados. Este script tem de nome [convertDataToCSV.py](https://github.com/diogoesnog/COVID-19/blob/master/Conjunto de Dados/Dados CSV/convertDataToCSV.py) e foi criado pensando-se na simplicidade em ter os dados sempre mais recentes, evitando-se trabalho excessivo na hora de recolher nova informação diária.
+Para obter estes dados extra em modo CSV foi necessário criar um *script* Python que conseguisse ir buscar a informação atualizada e cria-se os respetivos dados. Este script tem de nome [convertDataToCSV.py](https://github.com/diogoesnog/COVID-19/blob/master/Conjunto%20de%20Dados/Dados%20CSV/convertDataToCSV.py) e foi criado pensando-se na simplicidade em ter os dados sempre mais recentes, evitando-se trabalho excessivo na hora de recolher nova informação diária.
 
 <br/>
 
 **Como funciona o *script* Python?**
 
-- Executa um ficheiro [dataCommands.sh](https://github.com/diogoesnog/COVID-19/blob/master/Conjunto de Dados/Dados CSV/dataCommands.sh) que contém todos os comandos em modo `curl` para os dados necessários;
+- Executa um ficheiro [dataCommands.sh](https://github.com/diogoesnog/COVID-19/blob/master/Conjunto%20de%20Dados/Dados%20CSV/dataCommands.sh) que contém todos os comandos em modo `curl` para os dados necessários;
   - Ao executar estes comandos obtém desde logo os dados em modo JSON, não processados.
 - Através de Expressões Regulares, absorve apenas a informação necessária, ao mesmo tempo que a escreve a mesma num ficheiro CSV.
 - Com todos os ficheiros CSV criados, os ficheiros JSON são eliminados de forma automática.
